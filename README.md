@@ -1,6 +1,6 @@
 # 🚿 Dispenser Inteligente
 
-Projeto que simula um dispenser automático com sensor de proximidade e exibe dados em tempo real em uma interface web.
+Sistema que simula um dispenser automático utilizando sensor de proximidade e exibe dados em tempo real em uma interface web.
 
 ---
 
@@ -22,25 +22,55 @@ Projeto que simula um dispenser automático com sensor de proximidade e exibe da
 
 ## 🚀 Como executar o projeto
 
-1. Instale as dependências:
+
+
+
+   1. Instale as dependências:
+
+```bash
 npm install
+```
+
+
 
 2. Inicie o servidor:
-node index.js
 
-3. Abra o arquivo index.html no navegador
-   
+```bash
+node index.js
+```
+
+
+
+3. Abra o arquivo `index.html` no navegador
+
 ---
 
 ## 🔌 Simulação no Tinkercad
 
-O circuito do dispenser foi desenvolvido e testado no Tinkercad, simulando o funcionamento com Arduino, sensor de proximidade e servo motor.
+O circuito foi desenvolvido no Tinkercad simulando:
 
-🔗 Acesse a simulação:
-https://www.tinkercad.com/things/d1BpGdq4YhW-dispensor
+- Arduino Uno  
+- Sensor de proximidade (HC-SR04)  
+- Servo motor  
 
-💡 Funcionamento:
+🔗 [Ver simulação no Tinkercad](https://www.tinkercad.com/things/d1BpGdq4YhW-dispensor)
 
-• O sensor detecta a aproximação da mão  
-• Quando a distância está dentro do limite, o servo é acionado  
-• O sistema simula a liberação do sabonete automaticamente  
+---
+
+## ⚙️ Funcionamento
+
+- O sensor detecta a aproximação da mão  
+- Quando a distância está dentro do limite configurado, o sistema é ativado  
+- O servo motor simula a liberação do sabonete automaticamente  
+
+---
+
+## 📈 Próximos passos
+
+- Integração com Arduino físico  
+- Melhorias na interface  
+- Ajuste fino da leitura do sensor  
+
+---
+
+   
