@@ -30,3 +30,17 @@ node index.js
 
 3. Abra o arquivo index.html no navegador
    
+---
+
+## 🔌 Simulação no Tinkercad
+
+O circuito do dispenser foi desenvolvido e testado no Tinkercad, simulando o funcionamento com Arduino, sensor de proximidade e servo motor.
+
+🔗 Acesse a simulação:
+https://www.tinkercad.com/things/d1BpGdq4YhW-dispensor
+
+💡 Funcionamento:
+
+• O sensor detecta a aproximação da mão  
+• Quando a distância está dentro do limite, o servo é acionado  
+• O sistema simula a liberação do sabonete automaticamente  
